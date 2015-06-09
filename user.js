@@ -9,5 +9,5 @@ exports.isAuthenticated = function(req,res,next){
 }
 
 exports.homePage = function(req,res){
-	res.json("Welcome to user route");
+	res.json({"message":"Welcome to user route"});
 }

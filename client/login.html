@@ -19,14 +19,14 @@
     <script src="https://code.angularjs.org/1.4.0-rc.2/angular.js"></script>
     <script src="https://code.angularjs.org/1.4.0-rc.2/angular-route.js"></script>
     <!-- Bootstrap JS -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <!--script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script-->
     <script type="text/javascript" src="./controllers/blogapp.js"></script>
   </head>
 
-  <body>
+  <body data-ng-controller="mainController">
 
-    <div class="container" data-ng-controller="mainController">
-      <div data-ng-include="loginUrl"></div>
+    <div class="container" >
+      <div data-ng-include="pageURL"></div>
     </div>
   </body>
 </html>
